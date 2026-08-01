@@ -26,7 +26,7 @@ An advanced, AI-driven conversational agent engineered specifically for the **In
 
 Experience the live production application here:
 
-- **Frontend Application (Vercel):** [https://ingres-chatbot-git-main-shaliha123s-projects.vercel.app/](https://ingres-chatbot-git-main-shaliha123s-projects.vercel.app/)
+- **Frontend Application (Vercel):** [https://ingris-chatbot.vercel.app](https://ingris-chatbot.vercel.app)
 - **Backend API Server (Render):** [https://ingris-chatbot.onrender.com/api/v1/health](https://ingris-chatbot.onrender.com/api/v1/health)
 
 ---
