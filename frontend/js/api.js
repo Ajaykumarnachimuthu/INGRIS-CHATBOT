@@ -1,14 +1,9 @@
 const getApiBaseUrl = () => {
   const host = (typeof window !== "undefined" && window.location && window.location.hostname) ? window.location.hostname : "127.0.0.1";
-  if (host === '127.0.0.1' || host === 'localhost') {
-    return `http://${host}:8000/api/v1`;
+  if (host !== '127.0.0.1' && host !== 'localhost') {
+    return 'https://ingris-chatbot.onrender.com/api/v1';
   }
-  // Client deployment domain isolation
-  if (host.includes('shaliha') || host.includes('ingres-chatbot-git-main-shaliha123s')) {
-    return 'https://ingres-chatbot-e8yh.onrender.com/api/v1';
-  }
-  // Personal deployment default
-  return 'https://ingris-chatbot.onrender.com/api/v1';
+  return `http://${host}:8000/api/v1`;
 };
 const API_BASE_URL = getApiBaseUrl();
 
